@@ -10,7 +10,7 @@ import {
   REQUEST_COUNT,
   requestCountSuccess,
 } from ".";
-const api = "https://api-freeela.herokuapp.com";
+const api = "https://api-o7.vercel.app/";
 // const api = "http://localhost:3002";
 
 export const handleRequestAccessLogic = () => {
