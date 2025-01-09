@@ -15,7 +15,7 @@ const Admin = () => {
   const history = useHistory();
 
   useEffect(() => {
-    fetch("https://api-freeela.herokuapp.com/contact/list")
+    fetch("https://api-o7.vercel.app/contact/list")
       .then((res) => res.json())
       .then((res) => {
         const reverse = res.list.reverse();
